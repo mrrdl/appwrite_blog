@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "vite",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
@@ -13,7 +14,10 @@
     "@reduxjs/toolkit": "^2.2.2",
     "@tinymce/tinymce-react": "^5.0.0",
     "appwrite": "^14.0.0",
+    "axios": "^1.6.8",
+    "cors": "^2.8.5",
     "html-react-parser": "^5.1.9",
+    "nodemon": "^3.1.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.51.2",
